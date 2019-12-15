@@ -1,34 +1,3 @@
-/*-----------------------------------------------------------
-* Template Name    : Vendrick - Personal Portfolio Template
-* Author           : pavloff-studio
-* Version          : 1.0.0
-* Created          : Nov 2019
-* File Description : Main css file of the template
-*------------------------------------------------------------
-*/
-
-/***********************
-    1.FONTS
-    2.BASIC
-    3.HELPER
-    4.NAVIGATION
-    5.HEADER
-    6.BANNER
-    7.ABOUT 
-    8.RESUME
-    9.SERVICES
-    10.COUNTERS
-    11.WORKS
-    12.BLOG
-    13.CONTACT
-    14.FOOTER
-    15.PRELOADER
-************************/
-
-/*======================
-        1.FONTS
-========================*/
-
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&amp;display=swap');
 
 /*======================
@@ -2491,4 +2460,49 @@ input[type="text"] {
   width:100%;
   height:100%;
   object-fit: cover;
+}
+.about{
+  padding-top:40px !important;
+}
+.contact-work{
+  padding-top:40px !important;
+}
+@media screen and (max-width:768px){
+  .post-entry .display-tc{
+    position: static;
+    margin-top:20px;
+    width:100%;
+  }
+  .resume{
+    padding-top:40px !important;
+  }
+  .about{
+    padding-bottom:0 !important;
+  }
+  .resume{
+    padding-bottom:20px !important;
+  }
+  .work{
+    padding-top:30px !important;
+    padding-bottom:20px !important;
+  }
+  .contact{
+    padding-top:40px !important;
+  }
+  .about-single{
+    margin-bottom: 40px !important;
+    padding-bottom: 20px !important;
+  }
+  .resume-about-single{
+    padding-top:30px !important;
+    padding-bottom:30px !important;
+  }
+  .contact-about-single{
+    padding-top:40px !important;
+  }
+
+  .header-page span:after,.header-page h2:before, .header-page h2:before,.header-page h2:after, .header-page h2:after{
+    display: none;
+  }
+ 
 }
