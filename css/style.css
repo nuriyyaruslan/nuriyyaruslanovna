@@ -24,7 +24,10 @@ body {
     font-size: 14px;
   }
 }
-
+@media screen and (max-width:576px){
+        #work .work .desc h3{
+        font-size:12px}
+}
 
 body.menu-show {
   overflow: hidden;
