@@ -27,6 +27,7 @@ body {
 @media screen and (max-width:576px){
         #work .work .desc h3{
         font-size:12px !important;}
+        #work .work .desc .con span{color:#fff}
 }
 
 body.menu-show {
